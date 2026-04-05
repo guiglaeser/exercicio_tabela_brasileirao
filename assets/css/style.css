@@ -1,8 +1,44 @@
+/* Não olheis para as cores que escolhi, afinal fiz apenas uma combinação que houvesse, de alguma forma, o contraste necessário para a leitura. */
+
 body {
-    padding: 0;
+    margin: 0;
+}
+
+div.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1200px;
+    background-color: rgb(36, 57, 175);
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    background-color: rgb(36, 57, 175);
+    color: white;
+    font-size: 25px;
 }
 
 table {
-    width: 100%;
-    height: 100%;
+    color: white;
+    height: 1000px;
+    width: 900px;
+    background-color: rgb(88, 139, 206);
+}
+
+table tr td {
+    font-size: 22px;
+}
+
+table th {
+    font-size: 30px;
+}
+
+table:hover {
+    height: 1200px;
+    width: 900px;
+    background-color: rgb(88, 139, 206);
 }
